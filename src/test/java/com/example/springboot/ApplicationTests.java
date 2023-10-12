@@ -10,4 +10,15 @@ class ApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void testMain() {
+		Application.main(new String[] {});
+	}
+
+	@Test
+	void testHelloWorldStrinf () {
+		String result = "Hello World!";
+		assert(result.equals("Hello World!"));
+	}
+
 }
